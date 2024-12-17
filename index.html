@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animais Fantásticos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      document.documentElement.className += " js";
+    </script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <nav class="menu" data-menu="suave">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul data-menu="list" id="menu">
+          <li><a href="#animais">Animais</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a href="empresa.html">A Empresa</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="socios.html">Sócios</a></li>
+              <li><a href="investidores.html">Investidores</a></li>
+            </ul>
+          </li>
+          <li><a href="#faq">Faq</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a data-modal="abrir" href="#login.html">Login ➢</a></li>
+        </ul>
+      </nav>
+      <section class="grid-section animais" data-anime="scroll" id="animais">
+        <h1 class="titulo">Animais Fantásticos</h1>
+        <ul class="animais-lista" data-tab="menu">
+          <li><img src="img/imagem1.jpg" /></li>
+          <li><img src="img/imagem2.jpg" /></li>
+          <li><img src="img/imagem3.jpg" /></li>
+          <li><img src="img/imagem4.jpg" /></li>
+          <li><img src="img/imagem5.jpg" /></li>
+          <li><img src="img/imagem6.jpg" /></li>
+        </ul>
+        <div class="animais-descricao" data-tab="content">
+          <section data-anime="show-right">
+            <h2>Raposa</h2>
+            <p>
+              Raposa é o nome dado a diferentes mamíferos onívoros da família
+              Canidae. São consideradas raposas verdadeiras as espécies que
+              pertencem ao gênero Vulpes, tais como a raposa-vermelha (Vulpes
+              vulpes) e da raposa-do-ártico (Vulpes lagopus).
+            </p>
+            <p>
+              Raposas têm uma aparência que lembra a de um cachorro,
+              destacando-se pelo seu focinho pontiagudo, orelhas eretas e
+              pontudas e uma cauda espessa, a qual se relaciona com equilíbrio e
+              também com o aquecimento do animal. Ratos, lebres, peixes,
+              carniças e frutos são alguns produtos que podem fazer parte da
+              dieta desses animais.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Esquilo</h2>
+            <p>
+              Os esquilos são pequenos roedores que vivem em diversas partes do
+              mundo. Estima-se que existam mais de 270 espécies de esquilos que
+              habitam desde florestas tropicais a montanhas nevadas, e são
+              surpreendentes de diversas formas.
+            </p>
+            <p>
+              A menor espécie de esquilo que existe é o esquilo pigmeu africano
+              (Myosciurus pumilio), natural das florestas tropicais de Camarões,
+              Gabão, noroeste do Congo e Guiné Equatorial, na África, segundo
+              informações da União Internacional para a Conservação da Natureza
+              (IUCN, na sigla em inglês). Eles medem, em média, de 12 a 14
+              centímetros e pesam menos de 20 gramas.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Urso</h2>
+            <p>
+              Urso é a denominação utilizada para as espécies pertencentes à
+              família Ursidae, uma das famílias mais estudadas e mais ameaçadas
+              entre os animais carnívoros. Seus membros pertencem à classe
+              Mammalia e à ordem Carnivora. A família Ursidae apresenta espécies
+              distribuídas em diversas regiões do planeta, como Europa, Ásia,
+              América do Sul, América do Norte e África, habitando desde regiões
+              de florestas a regiões polares. A seguir descrevemos algumas
+              características desse grupo de animais e algumas de suas espécies.
+            </p>
+            <p>
+              Ursos são animais pertencentes à família Ursidae. Existem
+              atualmente oito espécies de ursos, e essas apresentam algumas
+              caraterísticas distintas e habitam diversos ambientes.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Lobo</h2>
+            <p>
+              O lobo (Canis lupus) é um animal mamífero, pertencente ao filo
+              Chordata, ordem Carnivora e família Canidae, a mesma família do
+              cachorro. O termo lobo é geralmente utilizado para designar a
+              espécie Canis lupus, um lobo que habita o Hemisfério Norte, também
+              conhecido como lobo cinzento.
+            </p>
+            <p>
+              O lobo é um animal carnívoro, habitante de algumas regiões do
+              hemisfério norte, como o Canadá. Vive em bandos, denominados de
+              alcateias.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Macaco</h2>
+            <p>
+              Macacos são animais mamíferos que fazem parte do grupo dos
+              primatas. É muito comum ouvirmos a utilização do termo para
+              referir-se a todo e qualquer primata, entretanto, nem todos os
+              primatas são macacos. Os macacos apresentam papel importante no
+              meio ambiente, sendo muitas espécies dispersoras de sementes,
+              garantindo, desse modo, a manutenção da biodiversidade das
+              florestas. Atualmente, muitas espécies de macacos encontram-se
+              ameaçadas de extinção. Entre os problemas enfrentados por esses
+              animais, estão a destruição do habitat e a caça.
+            </p>
+            <p>
+              A ordem Primates está dividida em duas subordens: Strepsirrhini e
+              Haplorrhini. Fazem parte da primeira os lêmures, lórises e
+              gálagos, enquanto na segunda estão inclusos os társios e
+              antropoides. Os antropoides podem ser divididos em dois grupos:
+              Platyrrhini, ou “macacos do Novo Mundo”, e Catarrhini, que inclui
+              os “macacos do Velho Mundo” e o Hominoidea. Sendo assim, o grupo
+              dos antropoides inclui os macacos e os seres humanos.
+            </p>
+          </section>
+          <section data-anime="show-down">
+            <h2>Leão</h2>
+            <p>
+              O leão é um animal mamífero felino, vertebrado e carnívoro de
+              grande porte. O seu nome científico é Panthera leo. Conhecido como
+              o Rei da Selva, o leão pode ser encontrado na Ásia, África e
+              Europa. Atualmente, é classificado com vulnerável à extinção pela
+              União Internacional para a Conservação da Natureza e dos Recursos
+              Naturais (IUCN). Entre as principais ameaças a conservação dos
+              leões estão a caça indiscriminada e a redução de seus habitats.
+            </p>
+            <p>
+              A maior parte dos leões que hoje vive na natureza são encontrados
+              nas savanas da África e demais regiões semi-desérticas. Ele já foi
+              extinto de muitas áreas de florestas da Ásia e Europa. Eles vivem
+              em grupos de até 40 indivíduos, sendo em sua maioria fêmeas,
+              lideradas pelo macho alfa. As atividades no grupo são divididas
+              entre os seus integrantes. Enquanto as fêmeas são responsáveis
+              pela caça e cuidam dos filhotes, os machos garantem a proteção do
+              grupo. A maior parte do tempo dos leões é destinada ao descanso,
+              apenas durante 5 horas do dia ocorrem as atividades de caça e em
+              grupo. O restante do tempo serve para dormir, descansar e
+              economizar energia.
+            </p>
+          </section>
+        </div>
+      </section>
+      <section class="grid-section faq" data-anime="scroll" id="faq">
+        <h1 class="titulo">faq</h1>
+        <dl class="faq-lista" data-anime="accordion">
+          <dt>Qual a idade dos animais ?</dt>
+          <dd>
+            depende de cada espécie e raça, pode variar muito o tempo de vida de
+            cada animal
+          </dd>
+          <dt>Eles são Fantásticos ?</dt>
+          <dd>
+            todos são espetaculares, fantásticos, cada um com o seu jeito de ser
+            e viver
+          </dd>
+          <dt>Qual a diferença ?</dt>
+          <dd>
+            todos os animais são mamiferos, e terrestres, mais cada um com seu
+            jeito de viver e caçar
+          </dd>
+          <dt>Como se protegem dos Predadores ?</dt>
+          <dd>
+            na sua grande maioria correndo e escondendo, pos temem ser feridos
+            ou capturados
+          </dd>
+        </dl>
+      </section>
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">Números</h1>
+        <div class="numeros-grid">          
+        </div>      
+      </section>
+      <section class="grid-section contato" data-anime="scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
+          <img src="img/mapa.png" />
+        </div>
+        <ul class="dados">
+          <li>adrianoautomatic2013@gamil.com</li>
+          <li>+55 (62) 99217-0222</li>
+          <li>Rua: André Herique</li>
+          <li>Goiania - GO</li>
+          <li>Doe <span class="btc-preco">0</span> bitcoin para o projeto</li>
+          <li data-semana="1,2,3,4,5" data-horario="8, 18">Seg á Sex das 8 ás 18</li>
+        </ul>
+      </section>
+      <footer class="copy">
+        <p>Todos os direitos resevados.</p>
+      </footer>
+    </div>
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button class="fechar" data-modal="fechar">X</button>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="text" for="email" id="email" />
+          <label for="senha">Senha</label>
+          <input type="password" for="senha" id="senha" />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
